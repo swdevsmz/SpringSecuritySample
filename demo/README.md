@@ -3,6 +3,7 @@
 
 - https://codezine.jp/article/detail/11703?p=2
 
+ヘッダーに認証情報を付与
 ```
- curl -H "X-Token : PASS" http://localhost:8080
- ```
+ curl -H "X-Token:PASS" http://localhost:8080/hello
+````
